@@ -1,0 +1,6 @@
+The main Class is Controller.java that istantied two thread: 
+1)TickGenerator: is the class that simulate the genreartion of the tick data every second
+2)StockPriceGenerator: is the class that simulate the calculation of the Stock price and the GBCE All Share Index 
+every 15 minutes.
+
+So the StockPriceGenerator wait 15 minutes and than calculate the tick data that TickGenerator provides.
